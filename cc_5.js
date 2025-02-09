@@ -73,3 +73,12 @@ let foundCustomer = customers.find(customer => customer === "Charlie"); //Use .f
 
 console.log(foundCustomer); //Log the result
 
+//Task 8
+
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log("The calculated tax is: " + tax);
+    return tax;
+  }
+  
+  calculateTax(1000000, 0.07);   //Example
