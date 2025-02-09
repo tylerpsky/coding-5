@@ -61,7 +61,15 @@ console.log(availableStock); //Log it
 
 let sales = [500, 300, 200, 400]; //Declare the sales array
 
-let totalRevenue = sales.reduce((total, sale) => total + sale, 0); //Use .reduce to calculate total revenue
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0); //Use .reduce to find total revenue
 
 console.log(totalRevenue); //Log the total revenue
+
+//Task 7
+
+let customers = ["Alice", "Bob", "Charlie", "David"]; //Declare the customers array
+
+let foundCustomer = customers.find(customer => customer === "Charlie"); //Use .find to find "Charlie"
+
+console.log(foundCustomer); //Log the result
 
