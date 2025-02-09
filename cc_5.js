@@ -91,3 +91,14 @@ function calculateTax(amount, taxRate) {
     return discountedPrice;
   };
   applyDiscount(100, 0.15);   //Example
+
+
+//Task 10
+
+const calculatePoints = purchaseAmount => {
+    let points = Math.floor(purchaseAmount / 10);
+    console.log("Points earned: " + points);
+    return points;
+  };
+  
+  calculatePoints(75);   //Example
