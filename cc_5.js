@@ -80,5 +80,14 @@ function calculateTax(amount, taxRate) {
     console.log("The calculated tax is: " + tax);
     return tax;
   }
-  
   calculateTax(1000000, 0.07);   //Example
+
+
+  //Task 9
+
+  const applyDiscount = function(price, discount) {
+    let discountedPrice = price - (price * discount);
+    console.log("The discounted price is: " + discountedPrice);
+    return discountedPrice;
+  };
+  applyDiscount(100, 0.15);   //Example
