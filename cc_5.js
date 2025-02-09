@@ -26,3 +26,17 @@ const order = {
   };
   
   order.displayOrder();   //Call the method and log the details
+
+  //Task 3
+
+let cartItems = ["Call of Duty", "Rocket League", "Fortnite"];  //Step 1: Declare an array with three video games
+
+cartItems.push("Rainbow Six Siege"); //Step 2: Add a new video game to the cart
+
+cartItems.pop(3); //Step 3: Remove the last video game from the cart
+
+cartItems.unshift("Overwatch"); //Step 4: Add a video game at the beginning of the cart
+
+cartItems.shift(0); //Step 5: Remove the first video game from the cart
+
+console.log(cartItems);
