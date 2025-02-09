@@ -40,3 +40,11 @@ cartItems.unshift("Overwatch"); //Step 4: Add a video game at the beginning of t
 cartItems.shift(0); //Step 5: Remove the first video game from the cart
 
 console.log(cartItems);
+
+//Task 4
+
+let prices = [100, 200, 300]; //Declare the prices array
+
+let discountedPrices = prices.map(price => price * 0.9); //Apply a 10% discount
+
+console.log(discountedPrices); //Log the new discounted prices
